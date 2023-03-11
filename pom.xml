@@ -30,7 +30,7 @@
         <dependency>
             <groupId>com.example.model</groupId>
             <artifactId>message-types</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.1</version>
         </dependency>
 
         <dependency>
@@ -133,4 +133,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>pulsar-message-types</id>
+            <name>Pulsar Message Types GitHub Packages</name>
+            <url>https://maven.pkg.github.com/dev-future-tech/pulsar-message-types</url>
+        </repository>
+    </repositories>
 </project>
